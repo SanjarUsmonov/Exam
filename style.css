@@ -1,7 +1,10 @@
+    @import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Lato:wght@100&family=Nunito&family=Poppins:ital,wght@0,600;1,600&family=Raleway:wght@600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito';
 }
 
 .container{
@@ -19,12 +22,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: rgba(234, 234, 234, 0.284);
 }
 
 .link{
-    width: 25%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .space{
@@ -34,11 +43,11 @@
 }
 
 .main2{
-display: flex;
-margin-top: 120px;
+    display: flex;
+    margin-top: 120px;
 }
 
-    .card2 img{
+.card2 img{
     margin-left: -50px;
     margin-bottom: -100px;
     
@@ -51,9 +60,9 @@ margin-top: 120px;
 }
 
 .sub{
-    width: 590px;
+    font-family: 'Raleway';
+    width: 650px;
     margin-bottom: 50px;
-    font-family: 'Galien';
     font-size: 64px;
     line-height: 85px;
     letter-spacing: 0.04em;
@@ -64,11 +73,15 @@ margin-top: 120px;
     width: 420px;
     font-size: 16px;
     margin-bottom: 75px;
-    font-family: 'Gilroy';
     font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #1F3F68;
+    color: #798CA4;
+}
+
+p{
+    color: #798CA4;
+    font-family: 'Nunito';
 }
 
 .btn1{
@@ -80,14 +93,17 @@ margin-top: 120px;
     color: #fff;
     border: none;
     border-radius: 10px;
+    font-family: 'Nunito';
 }
 
 .main3{
     margin-left: 50px;
     margin-top: 10px;
+    font-family: 'Nunito';
 }
 
 h2{
+    font-family: 'Nunito';
     width: 350px;
     font-size: 36px;
     font-family: 'Gilroy';
@@ -99,6 +115,7 @@ h2{
 
 
 .main4{
+    font-family: 'Nunito';
     width: 1300px;
     display: flex;
     justify-content: space-between;
@@ -107,6 +124,7 @@ h2{
 }
 
 .card5{
+    font-family: 'Nunito';
     margin-top: 10px;
     margin-right: 220px;
 }
@@ -159,13 +177,19 @@ h3{
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #1F3F68;
+    color: #798CA4;
     padding: 0 40px;
+    margin-bottom: 15px;
 }
 
 .learn{
     margin-left: 40px;
     margin-right: 40px;
+    color: #5A98D0;
+}
+
+.st{
+    margin-left: 15px;
 }
 
 .main6{
@@ -211,6 +235,17 @@ h3{
 .text3{
     float: right;
     width: 280px;
+    color: #fff;
+}
+
+.sub4{
+    width: 500px;
+    padding: 10px 20px;
+}
+
+.content8{
+    color: #fff;
+    padding: 10px 20px;
 }
 
 .main9{
@@ -242,6 +277,10 @@ h3{
     height: 1428px;
     background: #5A98D0;
     border-radius: 200px 0px 0px 0px;
+}
+
+.foot2 p{
+    color: #fff;
 }
 
 .main11 h2{
@@ -329,8 +368,9 @@ h3{
 
 .main12{
     margin-top: 120px;
+    flex-wrap: wrap;
     width: 1190px;
-    height: 870px;
+    height: 860px;
     background: #316099;
     border-radius: 0px 200px 0px 0px;
     display: flex;
@@ -364,3 +404,40 @@ h3{
     margin-right: 100px;
     margin-top: 140px;
 }
+
+.main13{
+    width: 900px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a{
+    color: #fff;
+}
+
+.text6{
+    color: #fff;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.h{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.menu a{
+    display: grid;
+    margin-left: 40px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.end{
+    margin-left: 150px;
+    color: #798CA4;
+}
+
